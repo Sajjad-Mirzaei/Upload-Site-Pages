@@ -1,0 +1,268 @@
+.p-0{
+    padding: 0 !important;
+}
+
+.d-none {
+    display: none;
+}
+
+.y-20{
+    margin: 20px 0;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.container{
+    width: 100%;
+} 
+
+.top-content{
+    width: 100%;
+    min-height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+
+.top-links{
+    display: flex;
+    justify-content:flex-end;
+    padding: 6px 0;
+}
+
+.top-links i{
+    font-size: 36px;
+    margin-right: 12px;
+}
+
+.top-links i:hover::before{
+    transform: scale(1.1);
+}
+
+.top-links i:hover {
+    color: #ffee10 !important;
+    text-shadow: 0 0 5px #ffee10;
+}
+
+.top-links i.flag{
+    color: rgb(240, 114, 48);
+}
+
+.top-links i.info{
+    color: #428bca;
+}
+
+.file-spec{
+    display: flex;
+}
+
+.file-spec img{
+    margin-right: 12px;
+}
+
+.file-spec h4{
+    margin-top:15px;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+.ads{
+    min-height: 350px;
+}
+
+.ads img{
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 450px) {
+    .top-links{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    .file-spec{
+        padding: 0px;
+    }
+
+    .file-spec h4{
+        font-size: 16px;
+    }
+
+    .ads{
+        padding: 0px 10px;
+    }
+}
+
+/* First Page Styles Start */
+.plans{
+    margin-top: 15px;
+    min-height: 350px;
+}
+
+.plans img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+}
+
+.spec-list{
+    width: auto; 
+    max-width: 300px; 
+    margin-right: auto; 
+    margin-left: auto; 
+    text-align: left;
+}
+
+.spec-list ul{
+    padding-left: 20px !important;
+}
+
+.spec-list li{
+    list-style-type:none;
+}
+
+.spec-list li i{
+    
+    margin-right: 4px;
+}
+
+/* First Page Styles End */
+
+
+/* Second Page Styles Start */
+.page-form{
+    margin-top: 15px;
+    min-height: 350px;
+}
+
+/* Recaptcha Css's Start */
+
+.recap {
+    width: 305px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Recaptcha Css's End */
+
+.submit-btn{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    border: 1px solid #999;
+    text-decoration: none;
+    padding: 8px 10px;
+    /* margin: 15px 0 ; */
+    border-radius: 3px;
+}
+
+.submit-btn:hover{
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+    transition: 1s;
+}
+
+.page-form-footer{
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.page-form-footer p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.page-form-footer p a{
+    color: #E45a11 !important; 
+    text-decoration: none  !important;
+}
+
+.page-form-footer p a:hover{
+    color: black !important; 
+    transition: 1s;
+}
+
+/* Countdown Css's Start */
+
+.base-timer {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.base-timer__svg {
+    transform: scaleX(-1);
+}
+
+.base-timer__circle {
+    fill: none;
+    stroke: none;
+}
+
+.base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: #eee;
+}
+
+.base-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+    color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+    color: orange;
+}
+
+.base-timer__path-remaining.red {
+    color: red;
+}
+
+.base-timer__label {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+/* Countdown Css's End */
+
+/* Second Page Styles End */
